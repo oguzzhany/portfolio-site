@@ -1,34 +1,35 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Kool Spots",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Kool Spots is a web app that users can share their favorite spots, built by using MERN and JWT.",
     image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/oguzzhany/M3-Project-Front",
+    link: "https://cosmic-moxie-da84fb.netlify.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
+    name: "CarRent",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+      "Carrent is a rent a car app that lets users search and rent their desired car, built using Next.js and typescript.",
+    image: "/platoio.png",
+    github: "https://github.com/oguzzhany/CarRentApp",
+    link: "https://carhub-crt.vercel.app/",
+  },
+  {
+    name: "Promptify",
+    description:
+      "Promptify is a chatgpt prompt app that built using Next.js and Google OAuth.",
     image: "/familyphotos.png",
     github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    link: "https://gpt-promptify.netlify.app/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,12 +79,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
