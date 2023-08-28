@@ -26,7 +26,7 @@ const projects = [
     description:
       "Promptify is a chatgpt prompt app that built using Next.js and Google OAuth.",
     image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
+    github: "https://github.com/oguzzhany/chatgpt-prompts-nextjs",
     link: "https://gpt-promptify.netlify.app/",
   },
 ];
